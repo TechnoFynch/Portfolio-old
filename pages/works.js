@@ -19,7 +19,7 @@ const Works = () => {
                 <SimpleGrid columns={[1,1,2]} gap={6}>
                     <Section delay={0.3}>
                         <WorkGridItem id='petpapa' title='Pet Papa' thumbnail={thumbpetPapa}>
-                            From suggesting daily activities to making appointments and advice you with notifications, we've got it all packed in here.
+                            From suggesting daily activities to making appointments and advice you with notifications, we&apos;ve got it all packed in here.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
