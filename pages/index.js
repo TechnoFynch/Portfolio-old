@@ -62,7 +62,7 @@ const Page = () => {
                     <Paragraph>
                         Shubham is an IT student based in India with a passion for web and mobile development.
                         He has the flair for solving complex real-life problems using the power of technology.
-                        If he is not on his laptop, you'll see him chasing a football on the field or in the
+                        If he is not on his laptop, you&apos;ll see him chasing a football on the field or in the
                         park with his guitar.
                         Currently, his team and him are working towards building their first mobile application called{' '}
                         <NextLink href='/works/petpapa'><Link>Pet Papa</Link></NextLink>
