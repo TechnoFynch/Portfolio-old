@@ -3,7 +3,7 @@ import {
     Badge,
     Link,
     List,
-    ListItem, Stack
+    ListItem
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import {
