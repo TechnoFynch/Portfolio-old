@@ -3,7 +3,7 @@ import {
     Badge,
     Link,
     List,
-    ListItem
+    ListItem, Stack
 } from "@chakra-ui/react";
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import {
@@ -47,16 +47,8 @@ const Work = () => {
                         <Meta>Stack</Meta>
                         <span>React Native, Expo CLI</span>
                     </ListItem>
-                    <ListItem>
-                        <Meta>Blogpost</Meta>
-                        <Link href='/works'>
-                            Here&apos;s how we started this app
-                            <ExternalLinkIcon mx='2px' />
-                        </Link>
-                    </ListItem>
                 </List>
-                <WorkImage src='/images/works/petpapa_01.png' alt='petpapa' />
-                <WorkImage src='/images/works/petpapa_02.png' alt='petpapa' />
+                <WorkImage src='/images/works/petpapa-showcase.png' alt='petpapa' />
             </Container>
         </Layout>
     )

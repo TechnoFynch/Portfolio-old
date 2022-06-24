@@ -26,7 +26,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box borderRadius='lg' bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align='center'>
-                    Hello, I&apos;m a PHP Developer based in India
+                    Hello, I&apos;m a Laravel Developer based in India
                 </Box>
 
                 <Box display={{md: 'flex'}}>
@@ -92,6 +92,10 @@ const Page = () => {
                     <BioSection>
                         <BioYear>Jan 2022 - Mar 2022</BioYear>
                         Web Dev Intern at Omrook Industries Ltd.
+                    </BioSection>
+                    <BioSection>
+                        <BioYear>May 2022 - Current</BioYear>
+                        Laravel Intern at Vardaam Web Solutions
                     </BioSection>
                 </Section>
 
