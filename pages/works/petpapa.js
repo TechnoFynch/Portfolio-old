@@ -48,7 +48,7 @@ const Work = () => {
                         <span>React Native, Expo CLI</span>
                     </ListItem>
                 </List>
-                <WorkImage src='/images/works/petpapa-showcase.png' alt='petpapa' />
+                <WorkImage src='/images/works/PetPapa-showcase.png' alt='petpapa' />
             </Container>
         </Layout>
     )
