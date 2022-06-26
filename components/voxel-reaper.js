@@ -72,7 +72,7 @@ const VoxelReaper = () => {
             controls.target = target
             setControls(controls)
 
-            loadGLTFModel(scene, '/model/scene.gltf', {
+            loadGLTFModel(scene, '/Rabbit.glb', {
                 receiveShadow: false,
                 castShadow: false,
             }).then(() => {
