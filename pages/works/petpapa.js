@@ -47,6 +47,10 @@ const Work = () => {
                         <Meta>Stack</Meta>
                         <span>React Native, Expo CLI</span>
                     </ListItem>
+                    <ListItem>
+                        <Meta>Status</Meta>
+                        <span>Ongoing</span>
+                    </ListItem>
                 </List>
                 <WorkImage src='/images/works/PetPapa-showcase.png' alt='petpapa' />
             </Container>

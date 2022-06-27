@@ -104,7 +104,7 @@ const Page = () => {
                         I ❤
                     </Heading>
                     <Paragraph>
-                        Gaming, Music ( All Time Low! ), Playing Piano, Playing Guitar, Playing Soccer, IoT Automation
+                        Gaming, Music (All Time Low!), Playing Piano, Playing Guitar, Playing Soccer, IoT Automation
                     </Paragraph>
                 </Section>
 

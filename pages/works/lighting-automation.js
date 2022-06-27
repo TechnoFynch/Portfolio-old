@@ -13,7 +13,7 @@ import Layout from "../../components/layouts/article";
 
 const Work = () => {
     return (
-        <Layout title="Pet Papa">
+        <Layout title="Lighting Automation">
             <Container>
                 <Title>
                     Smart Lighting Automation
@@ -33,6 +33,10 @@ const Work = () => {
                     <ListItem>
                         <Meta>Stack</Meta>
                         <span>Python, Telegram API</span>
+                    </ListItem>
+                    <ListItem>
+                        <Meta>Status</Meta>
+                        <span>Complete</span>
                     </ListItem>
                 </List>
             </Container>
