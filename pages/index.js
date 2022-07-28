@@ -60,13 +60,13 @@ const Page = () => {
                         Work
                     </Heading>
                     <Paragraph>
-                        Shubham is an IT student based in India with a passion for web and mobile development.
-                        He has the flair for solving complex real-life problems using the power of technology.
-                        If he is not on his laptop, you&apos;ll see him chasing a football on the field or in the
-                        park with his guitar.
-                        Currently, his team and him are working towards building their first mobile application called{' '}
-                        <NextLink href='/works/petpapa'><Link>Pet Papa</Link></NextLink>
-                        .
+                        I am an IT student based in India with a passion for web and mobile development.
+                        I have a knack for solving complex real-life problems using the power of technology.
+                        I&apos;m an overall energetic guy, so when I am not in front of my laptop, you&apos;ll find me
+                        on the field.
+                        Currently, I am working on a cutting edge{' '}
+                        <NextLink href='/works/petpapa'><Link>Drone Swarm</Link></NextLink>
+                        {' '}technology with my team.
                     </Paragraph>
                     <Box align='center' my={4}>
                         <NextLink href='/works'>
@@ -104,7 +104,7 @@ const Page = () => {
                         I ❤
                     </Heading>
                     <Paragraph>
-                        Gaming, Music (All Time Low!), Playing Piano, Playing Guitar, Playing Soccer, IoT Automation
+                        Gaming, Music (All Time Low!), Playing Guitar, Soccer, IoT Automation
                     </Paragraph>
                 </Section>
 

@@ -7,6 +7,8 @@ import Section from "../components/section";
 import {WorkGridItem} from "../components/grid-item";
 import thumbpetPapa from '../public/images/works/petPapa.png'
 import thumbSls from '../public/images/works/sls-showcase.png'
+import thumbDrone from '../public/images/works/drone-swarm-showcase.png'
+import thumbMovie from '../public/images/works/movie-showcase.png'
 import Layout from "../components/layouts/article";
 
 const Works = () => {
@@ -26,6 +28,16 @@ const Works = () => {
                     <Section delay={0.3}>
                         <WorkGridItem id='lighting-automation' title='Lighting Automation' thumbnail={thumbSls}>
                             Smart Lighting Solution for your home, right at your fingertips!
+                        </WorkGridItem>
+                    </Section>
+                    <Section delay={0.3}>
+                        <WorkGridItem id='drone-swarm' title='Drone Swarm' thumbnail={thumbDrone}>
+                            Intelligent Drone Swarm for surveillance and rescue operations
+                        </WorkGridItem>
+                    </Section>
+                    <Section delay={0.3}>
+                        <WorkGridItem id='movie-corner' title='Movie Corner' thumbnail={thumbMovie}>
+                            React JS &amp; TMDB API Movie Information
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>

@@ -1,59 +1,55 @@
 import {
     Container,
     Badge,
-    Link,
     List,
-    ListItem
+    ListItem, Link
 } from "@chakra-ui/react";
-import { ExternalLinkIcon } from '@chakra-ui/icons'
 import {
     Title,
-    WorkImage,
-    Meta
+    Meta, WorkImage
 } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from "../../components/layouts/article";
+import {ExternalLinkIcon} from "@chakra-ui/icons";
 
 const Work = () => {
     return (
-        <Layout title="Pet Papa">
+        <Layout title="Movie Corner">
             <Container>
                 <Title>
-                    Pet Papa
+                    Movie Corner
                     <Badge>
                         2022
                     </Badge>
                 </Title>
                 <P>
-                    With this app on your phone, no more need to worry about your
-                    pet&apos;s health and hygiene, because we do that for you.
-                    From suggesting daily activities to making vet appointments
-                    and advice you with notifications, we&apos;ve got it all
-                    packed in here.
-                    (Please use a mobile browser to download the APK file from below link)
+                    React JS Starter Project with which you get the most popular movies released along with their meta data.
+                    Also lets you search for your favorite movies.
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
-                        <Meta>APK File</Meta>
-                        <Link href="https://bit.ly/3sZKRTF" target="_blank">
-                            https://bit.ly/3sZKRTF
+                        <Meta>Website</Meta>
+                        <Link href="https://comik-storm.github.io/movie-corner" target="_blank">
+                            https://comik-storm.github.io/movie-corner
                             <ExternalLinkIcon mx='2px' />
                         </Link>
                     </ListItem>
                     <ListItem>
                         <Meta>Platform</Meta>
-                        <span>Android (IOS coming soon!)</span>
+                        <span>Web browser</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Stack</Meta>
-                        <span>React Native, Expo CLI</span>
+                        <span>React JS</span>
                     </ListItem>
                     <ListItem>
                         <Meta>Status</Meta>
-                        <span>Ongoing</span>
+                        <span>Completed</span>
                     </ListItem>
                 </List>
-                <WorkImage src='/images/works/PetPapa-showcase.png' alt='petpapa' />
+                <WorkImage src='/images/works/movie-home.png' alt='Movie Corner Home' />
+                <WorkImage src='/images/works/movie-details.png' alt='Movie Corner Details' />
+                <WorkImage src='/images/works/movie-search.png' alt='Movie Corner Search' />
             </Container>
         </Layout>
     )
