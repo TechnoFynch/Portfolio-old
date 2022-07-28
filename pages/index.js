@@ -26,7 +26,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box borderRadius='lg' bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align='center'>
-                    Hello, I&apos;m a Laravel Developer based in India
+                    Hello, I&apos;m a Full Stack Developer based in India
                 </Box>
 
                 <Box display={{md: 'flex'}}>
