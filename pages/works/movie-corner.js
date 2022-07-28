@@ -29,8 +29,8 @@ const Work = () => {
                 <List ml={4} my={4}>
                     <ListItem>
                         <Meta>Website</Meta>
-                        <Link href="https://comik-storm.github.io/movie-corner" target="_blank">
-                            https://comik-storm.github.io/movie-corner
+                        <Link href="https://mov-corner.netlify.app" target="_blank">
+                            https://mov-corner.netlify.app
                             <ExternalLinkIcon mx='2px' />
                         </Link>
                     </ListItem>
