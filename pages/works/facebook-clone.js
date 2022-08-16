@@ -6,7 +6,7 @@ import {
 } from "@chakra-ui/react";
 import {
     Title,
-    Meta
+    Meta, WorkImage
 } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from "../../components/layouts/article";
@@ -23,7 +23,8 @@ const Work = () => {
                     </Badge>
                 </Title>
                 <P>
-                    A Facebook Clone, built using React, Redux and Firebase Firestore, Firebase Authentication
+                    A Facebook Clone built using React, Redux and Firebase Firestore with Firebase Authentication.
+                    Create an account, Sign in, post your life, view others&apos; posts
                 </P>
                 <List ml={4} my={4}>
                     <ListItem>
@@ -46,6 +47,8 @@ const Work = () => {
                         <span>Completed</span>
                     </ListItem>
                 </List>
+                <WorkImage src='/images/works/facebook-signin.png' alt='sign up page' />
+                <WorkImage src='/images/works/facebook-home.png' alt='home page' />
             </Container>
         </Layout>
     )

@@ -43,7 +43,7 @@ const Works = () => {
                     </Section>
                     <Section delay={0.3}>
                         <WorkGridItem id='facebook-clone' title='Facebook Clone' thumbnail={thumbFacebook}>
-                            Facebook Clone
+                            Facebook Clone with Firebase Authentication
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
