@@ -9,6 +9,7 @@ import thumbpetPapa from '../public/images/works/petPapa.png'
 import thumbSls from '../public/images/works/sls-showcase.png'
 import thumbDrone from '../public/images/works/drone-swarm-showcase.png'
 import thumbMovie from '../public/images/works/movie-showcase.png'
+import thumbFacebook from "../public/images/works/facebook-clone-thumb.png"
 import Layout from "../components/layouts/article";
 
 const Works = () => {
@@ -38,6 +39,11 @@ const Works = () => {
                     <Section delay={0.3}>
                         <WorkGridItem id='movie-corner' title='Movie Corner' thumbnail={thumbMovie}>
                             React JS &amp; TMDB API Movie Information
+                        </WorkGridItem>
+                    </Section>
+                    <Section delay={0.3}>
+                        <WorkGridItem id='facebook-clone' title='Facebook Clone' thumbnail={thumbFacebook}>
+                            Facebook Clone
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
