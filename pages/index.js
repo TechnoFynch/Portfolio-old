@@ -65,7 +65,7 @@ const Page = () => {
                         I&apos;m an overall energetic guy, so when I am not in front of my laptop, you&apos;ll find me
                         on the field.
                         Currently, I am working on a cutting edge{' '}
-                        <NextLink href='/works/petpapa'><Link>Drone Swarm</Link></NextLink>
+                        <NextLink href='/works/drone-swarm'><Link>Drone Swarm</Link></NextLink>
                         {' '}technology with my team.
                     </Paragraph>
                     <Box align='center' my={4}>
